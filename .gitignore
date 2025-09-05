@@ -1,0 +1,72 @@
+# ----------------------------
+# Logs
+# ----------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----------------------------
+# Spring Boot / Java (backend in fullstackjava)
+# ----------------------------
+fullstackjava/HELP.md
+fullstackjava/target/
+fullstackjava/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+fullstackjava/.apt_generated
+fullstackjava/.classpath
+fullstackjava/.factorypath
+fullstackjava/.project
+fullstackjava/.settings
+fullstackjava/.springBeans
+fullstackjava/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+fullstackjava/nbproject/private/
+fullstackjava/nbbuild/
+fullstackjava/dist/
+fullstackjava/nbdist/
+fullstackjava/.nb-gradle/
+fullstackjava/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ----------------------------
+# React / Node.js (frontend in frontendreact)
+# ----------------------------
+frontendreact/node_modules/
+frontendreact/dist/
+frontendreact/dist-ssr/
+frontendreact/build/
+frontendreact/.env
+*.local
+
+# ----------------------------
+# Editor directories and files
+# ----------------------------
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----------------------------
+# OS / General
+# ----------------------------
+Thumbs.db
+
